@@ -1,0 +1,1 @@
+RecyclerView 里含有EditText 当焦点位置变化时，导致RecyclerView自动滚动，可通过重写LayoutManager requestChildRectangleOnScreen方法返回false解决
